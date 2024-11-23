@@ -8,7 +8,7 @@ export default function RightPane({animals,AnimalClick}){
            {
             animals.map((animal)=>(
                
-                <img   style={{ margin: '13px' }} src={require(`./fig/${animal.img}`)} alt={animal.name} />
+                <img   style={{ margin: '13px' }} src={require(`./fig/${animal.img}`)} alt={animal.name} onClick={()=>AnimalClick=(animal)} />
             ))
            } 
           </div>

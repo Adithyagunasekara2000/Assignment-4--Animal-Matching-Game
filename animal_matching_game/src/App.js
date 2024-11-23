@@ -3,15 +3,20 @@ import Body from "./components/Body";
 import LeftPane from "./components/LeftPane";
 import RightPane from "./components/RightPane";
 import {animals} from "./components/AnimalsDb"
-import { useState } from "react";
+import { useEffect, useState } from "react";
 function App(){
   const [randomAnimal,setRandomAnimal]=useState({});
   const [result,setResult]=useState('');
+ 
+
+  useEffect(()=>{
+    generate();
+  })
   const generate=()=>{
-   const randomIndex=Math.floor(Math.random() * animals.length) + 1;
-   setRandomAnimal(animals[randomIndex])
-  }
-  const handle=(selectedAnimal)=>{
+    const randomIndex=Math.floor(Math.random() * animals.length) + 1;
+    setRandomAnimal(animals[randomIndex])
+   }
+  const handleAnimal=(selectedAnimal)=>{
     if(selectedAnimal.name===randomAnimal.name){
       setResult("WIN")
     }
@@ -25,9 +30,9 @@ function App(){
   <div  className="main">
   <Header/>
   
-  <LeftPane result/>
+  <LeftPane result={result}/>
   <Body name={randomAnimal.name}/>
-  <RightPane animals={animals} AnimalClick={handle}/>
+  <RightPane animals={animals} AnimalClick={handleAnimal}/>
    </div>
 )
 }

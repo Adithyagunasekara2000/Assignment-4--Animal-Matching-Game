@@ -3,7 +3,7 @@ import RightPane from './RightPane';
 import './style.css'
 import {useState} from 'react' 
 
-export default function Body({name}){
+export default function Body({animals,name}){
   
 
     return (
