@@ -6,9 +6,9 @@
     display: inline-block; 
 }
 .left{
-    width:20%;
+    width:15%;
     text-align: center;
-    height: 700px;
+    height: 1000px;
     display: inline-block; 
     border: 3px solid orange;
     
@@ -16,17 +16,18 @@
 
 }
 .right{
-    width:59%;;
+    width:69%;;
     text-align: center;
-    height: 700px;
+    height: 1000px;
     border: 3px solid orange;
     display: inline-block;
+    background-color: rgb(100, 177, 232);
 
 }
 .content{
-    width:20%;
+    width:15%;
     text-align: center;
-    height: 700px;
+    height: 1000px;
     border: 3px solid orange;
     display: inline-block;
 

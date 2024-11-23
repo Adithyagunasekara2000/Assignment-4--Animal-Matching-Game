@@ -6,9 +6,10 @@ export default function RightPane({animals}){
             <h3>Select the Animal</h3>
            {
             animals.map((animal)=>(
-                <img  src={require(`./images/${animal.img}`)} alt={animal.name} />
+                <img   src={require(`./fig/${animal.img}`)} alt={animal.name} />
             ))
            }
+           <br/>
         </div>
 
     )
