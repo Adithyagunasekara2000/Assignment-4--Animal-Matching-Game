@@ -11,8 +11,8 @@ function App(){
  
 
   useEffect(()=>{
-    generate();
-  })
+  generate();
+   })
   const generate=()=>{
     const randomIndex=Math.floor(Math.random() * animals.length) + 1;
     setRandomAnimal(animals[randomIndex])

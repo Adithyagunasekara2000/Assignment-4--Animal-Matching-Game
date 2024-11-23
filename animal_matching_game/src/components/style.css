@@ -1,13 +1,14 @@
 .header{
     text-align: center;
-    width:99.5%;
+    width:98.8%;
     height: 20%;
     border: 3px solid orange;
     display: inline-block; 
 }
 .left{
-    width:15%;
+    width:14.3%;
     text-align: center;
+    margin-top: 10px;
     height: 1000px;
     /*display: inline-block;*/ 
     border: 3px solid orange;
@@ -22,7 +23,7 @@
     border: 3px solid orange;
     /*display: inline-block;*/
     margin-left: 30.8%;
-    margin-top: -1007px;
+    margin-top: -1006px;
 
    
 
@@ -36,7 +37,7 @@
     height: 1000px;
     border: 3px solid orange;
     margin-left: 15.1%;
-    margin-top: -1005px;
+    margin-top: -1004px;
    /* display: inline-block;*/
 
 }
