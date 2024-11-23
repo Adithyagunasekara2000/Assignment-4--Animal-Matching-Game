@@ -33,7 +33,8 @@ function App(){
   
   <LeftPane result={result}/>
   <Body name={randomAnimal.name}/>
-  <RightPane animals={animals} AnimalClick={handleAnimal}/>
+  <RightPane animals={animals} AnimalClick={handleAnimal}/> 
+ 
    </div>
 )
 }
