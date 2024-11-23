@@ -10,4 +10,6 @@
 <li>JavaScript</li>
 <li>Visual Studio Code</li>
 <h3>Sample Output</h3>
-(Screenshot 2024-11-23 202633.png)
+
+
+![Screenshot 2024-11-23 202633](https://github.com/user-attachments/assets/5a008ded-4add-43ea-b11d-c93cb48669d3)
