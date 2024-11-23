@@ -1,8 +1,8 @@
-export default function LeftPane({name}){
+export default function LeftPane({result}){
     return(
         <div className="left">
             <h3> Result</h3>
-            <p>{name}</p>
+            <p>{result}</p>
         </div>
     )
 }
