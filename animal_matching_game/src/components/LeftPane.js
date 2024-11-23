@@ -1,7 +1,7 @@
 export default function LeftPane(){
     return(
         <div className="left">
-            <h4> Result</h4>
+            <h3> Result</h3>
         </div>
     )
 }

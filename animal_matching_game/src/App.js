@@ -2,15 +2,18 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import LeftPane from "./components/LeftPane";
 import RightPane from "./components/RightPane";
+import {animals} from "./data/AnimalsDb"
 function App(){
   return (
-  <div >
+  <div  className="main">
   <Header/>
   <LeftPane/>
   <Body/>
   <RightPane/>
-  </div>
-  
+ 
+  <RightPane animals={animals}/>
+   
+   </div>
 )
 }
 

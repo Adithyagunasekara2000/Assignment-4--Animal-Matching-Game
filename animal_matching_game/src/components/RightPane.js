@@ -1,7 +1,14 @@
-export default function RightPane(){
+
+import React from "react"
+export default function RightPane({animals}){
     return(
         <div className="right">
-            <h4>Select the Animal</h4>
+            <h3>Select the Animal</h3>
+           {
+            animals.map((animal)=>(
+                <img  src={require(`./images/${animal.img}`)} alt={animal.name} />
+            ))
+           }
         </div>
 
     )
