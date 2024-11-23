@@ -4,6 +4,7 @@ import LeftPane from "./components/LeftPane";
 import RightPane from "./components/RightPane";
 import {animals} from "./components/AnimalsDb"
 import { useEffect, useState } from "react";
+
 function App(){
   const [randomAnimal,setRandomAnimal]=useState({});
   const [result,setResult]=useState('');
